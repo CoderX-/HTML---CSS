@@ -1,0 +1,68 @@
+/* 
+font-family: 'Average Sans', sans-serif;
+font-family: 'Open Sans', sans-serif; 
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Average Sans", "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 5.61rem;
+  text-shadow: 2px 2px 0 #000;
+  text-shadow: 2px 2px 0 #000;
+  word-spacing: 1.5rem;
+}
+
+.hero {
+  align-items: center;
+  background: url("images/hero-image.jpeg") no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.hero .hero-quote {
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background: url("images/hero-image-969.jpg") no-repeat;
+    background-size: cover;
+  }
+  .hero .hero-quote {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .hero {
+    background: url("images/hero-image-1150.jpg") no-repeat;
+    background-size: cover;
+  }
+  .hero .hero-quote {
+    font-size: 6rem;
+  }
+}

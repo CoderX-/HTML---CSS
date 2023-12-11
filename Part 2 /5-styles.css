@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 5.61rem;
+}
+h2 {
+  font-size: 4.209rem;
+}
+h3 {
+  font-size: 3.157rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  /* width: 90%; */
+  justify-content: center;
+  align-items: center;
+}
+
+/* form h2 {
+  margin: 1rem;
+} */
+
+button,
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* outline: 0; */
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  /* transition: border-color 0.15 box-shadow 0.15; */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #7db0fb;
+  outline: 0;
+  box-shadow: 0 0 0 4px rgba(24, 117, 255, 0.25);
+}
+
+.checkbox {
+  margin: 1rem;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  background-color: #0d669e;
+  color: #edeade;
+  letter-spacing: 1px;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  font-weight: bold;
+}
+
+.copyright {
+  color: #808080;
+}

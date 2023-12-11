@@ -1,0 +1,71 @@
+/* 
+font-family: 'Arvo', serif;
+font-family: 'Cantarell', sans-serif;
+font-family: 'Rethink Sans', sans-serif;
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /* color: #222; */
+  font-family: "Cantarell", Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  margin: 8rem 0;
+  line-height: 1.5;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* color: #000; */
+  font-family: "Rethink Sans", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  margin: 2rem 0 1rem;
+  /* line-height: 1.1; */
+  /* font-weight: 900; */
+}
+
+h1 {
+  font-size: 5.61rem;
+}
+h2 {
+  font-size: 4.209rem;
+}
+h3 {
+  font-size: 3.157rem;
+}
+h4 {
+  font-size: 2.369rem;
+}
+h5 {
+  font-size: 1.777rem;
+}
+h6 {
+  font-size: 1.333rem;
+}
+
+h1 + p {
+  font-family: "Arvo", Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 1.8rem;
+}
+
+img {
+  width: 100%;
+}
